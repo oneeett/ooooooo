@@ -1,0 +1,118 @@
+.h1{
+    font-size: 48px;
+    font-family: sans-serif;
+    color: blue;
+}
+.span{
+font-size: 60px;
+font-family: sans-serif;
+margin-right: 10px;
+color: gray;
+text-transform: uppercase;
+color: black;
+cursor: pointer;
+transition: 0.5s;
+}
+.span:hover{
+    color: rgb(255, 4, 0);
+    text-decoration: underline;
+}
+.button{
+    height: 100%;
+    width: 100%;
+    border: 3px solid transparent;
+}
+.h2{
+    cursor: pointer;
+}
+.h2:hover{
+    color: red;
+}
+.p{
+    color: gray;
+    margin-left: 30px;
+    font-family: sans-serif;
+}
+.m{
+    /* margin-right: 10px; */
+    transition: 1s;
+}
+
+nav{
+    display: flex;
+    height: 60px;
+    
+}
+.nav_left{   
+font-size: larger;
+display: flex;
+}
+.nav_right{   
+font-size: larger;
+display: flex;
+}
+.logo{
+    width: 244px;
+    height: 34px;
+}
+.nav_left>div{
+    margin-left: 60px;
+    line-height: 80px;
+}
+.nav_right>div{
+    margin-left: 60px;
+    line-height: 80px;
+}
+.nav{
+    display: flex;
+    width: 70%;
+}
+.nav_left>div:hover{
+    color: red;
+    cursor: pointer;
+}
+.nav_right>div:hover{
+    color:red;
+}
+.allm{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+}
+.audio{
+    width: 250px;
+    height: 270px;
+    overflow: hidden;
+}
+.m:hover{
+    transform:scale(1.05);
+    opacity: 70%;
+    cursor: pointer;
+}
+.audio:hover > .desc_img{
+    background: rgb(249, 243, 192);
+    transform: translateY(-30%);
+    transition: 1s;
+}
+.desc_img{
+    height: 70px;
+    font-size: 17px;
+    font-family: sans-serif;
+    user-select: none;
+}
+footer{
+    height: 150px;
+    border: 0.1px solid black;
+    border-radius: 5px;
+    margin-top: 30px;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+
+
+
+
+
